@@ -1,0 +1,64 @@
+body{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    display: flex;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+
+#content_image{
+    background-image: url('./images/cactus.jpg');
+    background-size:cover;
+    width: 30%;
+    height: 90vh;
+}
+
+#header{
+    background-color: #74D7F3;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    overflow: auto;
+}
+
+#content_text{
+    background-color: #F7F894;
+    height: 80vh;
+    text-align: center;
+    overflow: auto;
+}
+
+#footer{
+    display: flex;
+}
+
+#footer_text{
+    background-color: #F8E2B0;
+    width: 70%;
+    height: 10vh;
+    text-align: center;
+    overflow: auto;
+}
+
+#footer_image{
+    background-image: url('./images/field.jpg');
+    background-size: cover;
+    width: 30%;
+    height: 10vh;
+}
